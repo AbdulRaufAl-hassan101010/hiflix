@@ -11,10 +11,13 @@ const MovieCard = ({
   movie: string;
   year: number;
 }) => {
+  // encode special characters in the movie title like spaces, &, etc.
+  const encodedTitle = encodeURIComponent(movie);
+
   return (
     <div>
       <Link
-        to={`/movie/${movie}`}
+        to={`/movie/${encodedTitle}`}
         className="w-full h-[290px] rounded-lg overflow-hidden"
       >
         <img

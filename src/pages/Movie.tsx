@@ -72,7 +72,7 @@ const Movie = () => {
                   <span>Duration:</span> {movie?.movie_duration}
                 </p>
                 <p>
-                  <span>Casts:</span> {movie?.movie_duration}
+                  <span>Casts:</span> {movie?.character}
                 </p>
                 <div className=" flex items-center gap-x-1">
                   <span className="">Rating:</span>{" "}

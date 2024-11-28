@@ -9,7 +9,7 @@ const Nav = () => {
           Hiflix
         </Link>
 
-        <ul className="hidden lg:flex rounded-full items-center bg-white px-5 py-2.5 text-sm font-light gap-x-5 text-gray-400">
+        <ul className="hidden text-xs lg:text-sm lg:flex rounded-full items-center bg-white px-5 py-2.5  font-light gap-x-5 text-gray-400">
           <li>
             <Link to="/movies" className="text-black font-medium">
               Movies

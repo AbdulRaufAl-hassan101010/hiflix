@@ -25,7 +25,7 @@ const MovieCard = ({
       </Link>
       <div className="mt-3">
         <span className="text-sm">
-          {movie?.length > 15 ? movie.slice(0, 20) + "..." : movie}
+          {movie?.length > 15 ? movie.slice(0, 18) + "..." : movie}
         </span>
       </div>
       <div className="flex gap-x-1 items-center">
